@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Text Number 1 Setting">>
+        <CheckBoxPreference
+            android:defaultValue="Histeria.ttf"
+            android:key="checkbox_font_number1_text1"
+            android:title="Histeria"
+            android:summary="This is font Number 1"/>
+
+        <CheckBoxPreference
+            android:defaultValue="Raven.ttf"
+            android:key="checkbox_font_number2_text1"
+            android:title="Raven"
+            android:summary="This is font Number 2"/>
+
+        <CheckBoxPreference
+            android:defaultValue="waltograph.otf"
+            android:key="checkbox_font_number3_text1"
+            android:title="Waltograph"
+            android:summary="This is font Number 3"/>
+        <ListPreference
+            android:id="@+id/lp"
+            android:defaultValue="10"
+            android:dialogTitle="Choose one of the size"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size_value"
+            android:key="font_size_text1"
+            android:title="Specify size of your font for TextView1" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Text Number 2 Setting">
+
+        <CheckBoxPreference
+            android:defaultValue="Histeria.ttf"
+            android:key="checkbox_font_number1_text2"
+            android:title="Histeria"
+            android:summary="This is font Number 1"/>
+        <CheckBoxPreference
+            android:key="checkbox_font_number2_text2"
+            android:title="Raven"
+            android:summary="This is font Number 2"
+            android:defaultValue="Raven.ttf"/>
+        <CheckBoxPreference
+            android:defaultValue="waltograph.otf"
+            android:key="checkbox_font_number3_text2"
+            android:title="Waltograph"
+            android:summary="This is font Number 3"/>
+        <ListPreference
+            android:id="@+id/lp2"
+            android:dialogTitle="Choose one of these size"
+            android:defaultValue="10dp"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size_value"
+            android:key="font_size_text2"
+            android:title="Specify size of your font for TextView2"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Text Number 3 Setting">
+
+        <CheckBoxPreference
+            android:defaultValue="Histeria.ttf"
+            android:key="checkbox_font_number1_text3"
+            android:title="Histeria"
+            android:summary="This is font Number 1"/>
+        <CheckBoxPreference
+            android:key="checkbox_font_number2_text3"
+            android:title="Raven"
+            android:summary="This is font Number 2"
+            android:defaultValue="Raven.ttf"/>
+        <CheckBoxPreference
+            android:defaultValue="waltograph.otf"
+            android:key="checkbox_font_number3_text3"
+            android:title="Waltograph"
+            android:summary="This is font Number 3"/>
+        <ListPreference
+            android:id="@+id/lp3"
+            android:dialogTitle="Choose one of these size"
+            android:defaultValue="10dp"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size_value"
+            android:key="font_size_text3"
+            android:title="Specify size of your font for TextView3"
+            />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

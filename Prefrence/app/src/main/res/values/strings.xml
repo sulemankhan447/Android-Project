@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Prefrence</string>
+
+    <string-array name="font_size">
+        <item>25dp></item>
+        <item>40dp></item>
+        <item>45dp></item>
+        <item>50dp></item>
+        <item>60dp></item>
+        <item>65dp></item>
+        <item>70dp></item>
+
+    </string-array>
+
+    <string-array name="font_size_value">
+        <item>25</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+    </string-array>
+
+
+    <string name ="text_color">
+        <item>ColorPrimary</item>
+        <item>ColorPrimaryDark</item>
+        <item>ColorAccent</item>
+    </string>
+
+    <string  name="text_color_value">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorAccent</item>
+    </string>
+    <string name="this_is_the_text_no_2">This is the Text No 2</string>
+    <string name="this_is_the_text_no_3">This is the Text No 3</string>
+    <string name="this_is_the_text_no_1">This is the Text No 1</string>
+
+</resources>
